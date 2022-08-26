@@ -1,0 +1,21 @@
+.TodoList {
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow-y: scroll;
+    max-height: 62vh;
+}
+.TodoList::-webkit-scrollbar {
+    width:8px;
+}
+.TodoList::-webkit-scrollbar-track {
+    background: rgba(118, 117, 117, 0.351);        /* color of the tracking area */
+}
+.TodoList::-webkit-scrollbar-thumb {
+    background-color: rgb(104, 103, 103);    
+    border-radius: 20px;  
+}
+.TodoList ul {
+    margin: 0;
+    padding: 0;
+}
+

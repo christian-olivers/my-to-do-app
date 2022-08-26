@@ -1,0 +1,41 @@
+.TodoFoter {
+    width: 100%;
+    position: absolute;
+    background: white;
+    height: 50px;
+    bottom: 0;
+    text-align: center;
+    box-shadow:  10px 10px 30px #d8d1d1, -20px -20px 60px #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.SocialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    list-style: none;
+    width: 100px;
+}
+.SocialMedia li a:focus {
+    outline: none;
+}
+.SocialMedia li:focus-within {
+    outline: 3px solid red;
+    padding: 1px;
+}
+.github {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    fill: gray;
+}
+.twitter{
+    width: 32px;
+    height: 30px;
+    margin-top: 2px;
+    fill: gray;
+}
+

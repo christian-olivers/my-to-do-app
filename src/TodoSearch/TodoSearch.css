@@ -1,0 +1,26 @@
+input {
+    width: 70%;
+    height: 30px;
+    border-radius: 50px;
+    background: #c1120b;
+    box-shadow:  10px 10px 25px #a40f09, -20px -10px 60px #de150d;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    color: white;
+    font-size: 17px;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.776);
+    opacity: 1;
+}
+
+input:focus {
+    border-radius: 50px;
+background: #c1120b;
+box-shadow: inset 20px 20px 60px #a40f09,
+            inset -20px -20px 60px #de150d;
+            border: none;
+            outline: none;
+}

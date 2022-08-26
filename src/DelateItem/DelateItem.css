@@ -1,0 +1,8 @@
+.Trash {
+    fill: rgb(82, 83, 83);
+    cursor: pointer;
+}
+
+.Trash:hover {
+    fill: rgb(248, 0, 0);
+}

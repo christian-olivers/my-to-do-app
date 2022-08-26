@@ -1,0 +1,8 @@
+.ContentNoFound {
+    text-align: center;
+    height: 80px;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(80, 78, 78);
+    margin-top: 50px;
+}

@@ -1,0 +1,45 @@
+.CreateTodoButton {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #cf130c, #ae100a);
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: xx-large;
+    right: 0;
+    margin-right: 20px;
+    bottom: 20px;   
+    z-index: 1;
+}
+
+.CreateTodoButton:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97);
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+.TextButtton {
+    display: inline-block;
+    margin: 0;
+    transition: transform .3s;
+}
+.TextButtton--rotate {
+    transform: rotate(-50deg);
+    display: inline-block;
+    margin: 0;
+}
